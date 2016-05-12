@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="huffman" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/huffman" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+					<Add directory="include" />
+					<Add directory="include/DataStructures/TAD" />
+				</Compiler>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add option="-fexceptions" />
+		</Compiler>
+		<Unit filename="include/Controllers/CodeProvider.h" />
+		<Unit filename="include/Controllers/CodecEngine.h" />
+		<Unit filename="include/Controllers/FileCodecEngine.h" />
+		<Unit filename="include/Controllers/HuffmanCodecEngine.h" />
+		<Unit filename="include/Controllers/RosettaCodeProvider.h" />
+		<Unit filename="include/DataStructures/Huffman/HuffCodeTable.h" />
+		<Unit filename="include/DataStructures/Huffman/HuffData.h" />
+		<Unit filename="include/DataStructures/Huffman/HuffNode.h" />
+		<Unit filename="include/DataStructures/Huffman/HuffTree.h" />
+		<Unit filename="include/DataStructures/TAD/BinaryNode.h" />
+		<Unit filename="include/DataStructures/TAD/BinaryTree.h" />
+		<Unit filename="include/DataStructures/TAD/HashNode.h" />
+		<Unit filename="include/DataStructures/TAD/HashTable.h" />
+		<Unit filename="include/DataStructures/TAD/List.h" />
+		<Unit filename="include/DataStructures/TAD/SortedList.h" />
+		<Unit filename="include/DataStructures/TAD/SortedListNode.h" />
+		<Unit filename="include/Util/FileHelper.h" />
+		<Unit filename="main.cpp" />
+		<Unit filename="src/Controllers/CodeProvider.cpp" />
+		<Unit filename="src/Controllers/CodecEngine.cpp" />
+		<Unit filename="src/Controllers/FileCodecEngine.cpp" />
+		<Unit filename="src/Controllers/HuffmanCodecEngine.cpp" />
+		<Unit filename="src/Controllers/RosettaCodeProvider.cpp" />
+		<Unit filename="src/DataStructures/Huffman/HuffCodeTable.cpp" />
+		<Unit filename="src/DataStructures/Huffman/HuffData.cpp" />
+		<Unit filename="src/DataStructures/Huffman/HuffNode.cpp" />
+		<Unit filename="src/DataStructures/Huffman/HuffTree.cpp" />
+		<Unit filename="src/DataStructures/TAD/BinaryNode.cpp" />
+		<Unit filename="src/DataStructures/TAD/BinaryTree.cpp" />
+		<Unit filename="src/DataStructures/TAD/HashNode.cpp" />
+		<Unit filename="src/DataStructures/TAD/HashTable.cpp" />
+		<Unit filename="src/DataStructures/TAD/List.cpp" />
+		<Unit filename="src/DataStructures/TAD/SortedList.cpp" />
+		<Unit filename="src/DataStructures/TAD/SortedListNode.cpp" />
+		<Unit filename="src/Util/FileHelper.cpp" />
+		<Extensions>
+			<code_completion />
+			<envvars />
+			<debugger />
+			<lib_finder disable_auto="1" />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>

@@ -1,0 +1,236 @@
+# depslib dependency file v1.0
+1446671344 source:f:\ecole\cegep\cpp\hoffman\main.cpp
+	<iostream>
+
+1461349126 source:f:\ecole\cegep\cpp\hoffman\src\huffdata.cpp
+	"HuffData.h"
+
+1462492096 f:\ecole\cegep\cpp\hoffman\include\huffdata.h
+	<string>
+
+1461188344 source:f:\ecole\cegep\cpp\hoffman\src\huffnode.cpp
+	"HuffNode.h"
+
+1462493048 f:\ecole\cegep\cpp\hoffman\include\huffnode.h
+	"HuffData.h"
+
+1461177996 source:f:\ecole\cegep\cpp\hoffman\src\hufftree.cpp
+	"HuffTree.h"
+
+1461178004 f:\ecole\cegep\cpp\hoffman\include\hufftree.h
+	<vector>
+	"HuffNode.h"
+	"HuffData.h"
+
+1461348569 source:f:\ecole\cegep\cpp\hoffman\src\filehelper.cpp
+	"FileHelper.h"
+	<fstream>
+
+1461348482 f:\ecole\cegep\cpp\hoffman\include\filehelper.h
+	<string>
+
+1461188598 source:f:\ecole\cegep\cpp\hoffman\src\codeprovider.cpp
+	"CodeProvider.h"
+
+1461256696 f:\ecole\cegep\cpp\hoffman\include\codeprovider.h
+	<vector>
+	"CodeTable.h"
+
+1462492175 source:f:\ecole\cegep\cpp\hoffman\src\rosettacodeprovider.cpp
+	"RosettaCodeProvider.h"
+	<bitset>
+
+1462474216 f:\ecole\cegep\cpp\hoffman\include\rosettacodeprovider.h
+	<vector>
+	"FileHelper.h"
+	"HuffData.h"
+	"CodeProvider.h"
+	"HuffCodeTable.h"
+	"HuffTree.h"
+
+1461256615 f:\ecole\cegep\cpp\hoffman\include\codetable.h
+
+1461254601 source:f:\ecole\cegep\cpp\hoffman\src\codetable.cpp
+	"CodeTable.h"
+
+1462469557 source:f:\ecole\cegep\cpp\hoffman\src\huffcodetable.cpp
+	"HuffCodeTable.h"
+
+1462469474 f:\ecole\cegep\cpp\hoffman\include\huffcodetable.h
+	<CodeTable.h>
+	<vector>
+	"HuffData.h"
+
+1461262614 source:f:\ecole\cegep\cpp\hoffman\src\codecengine.cpp
+	"CodecEngine.h"
+
+1461263223 f:\ecole\cegep\cpp\hoffman\include\codecengine.h
+
+1461263210 source:f:\ecole\cegep\cpp\hoffman\src\filecodecengine.cpp
+	"FileCodecEngine.h"
+
+1461263244 f:\ecole\cegep\cpp\hoffman\include\filecodecengine.h
+	"CodecEngine.h"
+	"FileHelper.h"
+	"CodeProvider.h"
+
+1461263548 source:f:\ecole\cegep\cpp\hoffman\src\huffmancodecengine.cpp
+	"HuffmanCodecEngine.h"
+
+1461263900 f:\ecole\cegep\cpp\hoffman\include\huffmancodecengine.h
+	"FileCodecEngine.h"
+	"HuffTree.h"
+
+1462988654 source:f:\ecole\cegep\cpp\huffman\main.cpp
+	<iostream>
+	"Controllers/HuffmanCodecEngine.h"
+
+1462637276 source:f:\ecole\cegep\cpp\huffman\src\controllers\codecengine.cpp
+	"Controllers/CodecEngine.h"
+
+1461263223 f:\ecole\cegep\cpp\huffman\include\controllers\codecengine.h
+
+1462637294 source:f:\ecole\cegep\cpp\huffman\src\controllers\codeprovider.cpp
+	"Controllers/CodeProvider.h"
+
+1462921023 f:\ecole\cegep\cpp\huffman\include\controllers\codeprovider.h
+	<vector>
+	<string>
+	"DataStructures/TAD/HashTable.h"
+
+1462779482 f:\ecole\cegep\cpp\huffman\include\datastructures\tad\hashtable.h
+	"DataStructures/TAD/HashNode.h"
+	"DataStructures/TAD/List.h"
+
+1462916528 source:f:\ecole\cegep\cpp\huffman\src\controllers\filecodecengine.cpp
+	"Controllers/FileCodecEngine.h"
+
+1462919018 f:\ecole\cegep\cpp\huffman\include\controllers\filecodecengine.h
+	"Controllers/CodecEngine.h"
+	"Util/FileHelper.h"
+	"Controllers/CodeProvider.h"
+
+1462915799 f:\ecole\cegep\cpp\huffman\include\util\filehelper.h
+	<string>
+
+1462988748 source:f:\ecole\cegep\cpp\huffman\src\controllers\huffmancodecengine.cpp
+	"Controllers/HuffmanCodecEngine.h"
+	"Controllers/RosettaCodeProvider.h"
+	<limits>
+	<bitset>
+	<iostream>
+	<sstream>
+
+1462919028 f:\ecole\cegep\cpp\huffman\include\controllers\huffmancodecengine.h
+	"Controllers/FileCodecEngine.h"
+	<queue>
+
+1461178004 f:\ecole\cegep\cpp\huffman\include\datastructures\hoffman\hufftree.h
+	<vector>
+	"HuffNode.h"
+	"HuffData.h"
+
+1462493048 f:\ecole\cegep\cpp\huffman\include\datastructures\hoffman\huffnode.h
+	"HuffData.h"
+
+1462492096 f:\ecole\cegep\cpp\huffman\include\datastructures\hoffman\huffdata.h
+	<string>
+
+1462930306 f:\ecole\cegep\cpp\huffman\include\datastructures\huffman\hufftree.h
+	<vector>
+	<string>
+	"HuffNode.h"
+	"HuffData.h"
+
+1462905316 f:\ecole\cegep\cpp\huffman\include\datastructures\huffman\huffnode.h
+	"HuffData.h"
+
+1462819784 f:\ecole\cegep\cpp\huffman\include\datastructures\huffman\huffdata.h
+	<string>
+
+1462934741 source:f:\ecole\cegep\cpp\huffman\src\controllers\rosettacodeprovider.cpp
+	"Controllers/RosettaCodeProvider.h"
+	<bitset>
+	<iostream>
+
+1462920974 f:\ecole\cegep\cpp\huffman\include\controllers\rosettacodeprovider.h
+	<vector>
+	"Util/FileHelper.h"
+	"DataStructures/Huffman/HuffData.h"
+	"Controllers/CodeProvider.h"
+	"DataStructures/Huffman/HuffCodeTable.h"
+	"DataStructures/Huffman/HuffTree.h"
+
+1462912616 f:\ecole\cegep\cpp\huffman\include\datastructures\huffman\huffcodetable.h
+	<string>
+	"DataStructures/TAD/HashTable.h"
+	"DataStructures/Huffman/HuffData.h"
+	"DataStructures/TAD/SortedList.h"
+
+1462912737 source:f:\ecole\cegep\cpp\huffman\src\datastructures\huffman\huffcodetable.cpp
+	"DataStructures/Huffman/HuffCodeTable.h"
+	<iostream>
+
+1462638182 source:f:\ecole\cegep\cpp\huffman\src\datastructures\huffman\huffdata.cpp
+	"DataStructures/Huffman/HuffData.h"
+
+1462779312 source:f:\ecole\cegep\cpp\huffman\src\datastructures\huffman\huffnode.cpp
+	"DataStructures/Huffman/HuffNode.h"
+
+1462933422 source:f:\ecole\cegep\cpp\huffman\src\datastructures\huffman\hufftree.cpp
+	"DataStructures/Huffman/HuffTree.h"
+	<stack>
+	<iostream>
+
+1462657234 source:f:\ecole\cegep\cpp\huffman\src\datastructures\tad\hashtable.cpp
+	"DataStructures/TAD/HashTable.h"
+	<string>
+
+1462929434 source:f:\ecole\cegep\cpp\huffman\src\util\filehelper.cpp
+	"Util/FileHelper.h"
+	<fstream>
+
+1462639162 source:f:\ecole\cegep\cpp\huffman\src\datastructures\tad\binarynode.cpp
+	"DataStructures/TAD/BinaryNode.h"
+
+1460651499 f:\ecole\cegep\cpp\huffman\include\datastructures\tad\binarynode.h
+
+1462656079 f:\ecole\cegep\cpp\huffman\include\datastructures\tad\hashnode.h
+
+1462845078 source:f:\ecole\cegep\cpp\huffman\src\datastructures\tad\binarytree.cpp
+	"DataStructures/TAD/BinaryTree.h"
+
+1460656482 f:\ecole\cegep\cpp\huffman\include\datastructures\tad\binarytree.h
+	<vector>
+	"BinaryNode.h"
+
+1462650078 source:f:\ecole\cegep\cpp\huffman\src\datastructures\tad\hashnode.cpp
+	"DataStructures/TAD/HashNode.h"
+	<string>
+
+1462656525 f:\ecole\cegep\cpp\huffman\include\datastructures\tad\list.h
+	<stddef.h>
+
+1462779552 source:f:\ecole\cegep\cpp\huffman\src\datastructures\tad\list.cpp
+	"DataStructures/TAD/List.h"
+	<string>
+	<iostream>
+	"DataStructures/TAD/HashNode.h"
+
+1462848796 source:f:\ecole\cegep\cpp\huffman\src\datastructures\tad\sortedlist.cpp
+	"DataStructures/TAD/SortedList.h"
+	<type_traits>
+	"DataStructures/Huffman/HuffData.h"
+	"DataStructures/Huffman/HuffNode.h"
+
+1462848486 f:\ecole\cegep\cpp\huffman\include\datastructures\tad\sortedlist.h
+	"DataStructures/TAD/SortedListNode.h"
+	<cstddef>
+
+1462842918 f:\ecole\cegep\cpp\huffman\include\datastructures\tad\sortedlistnode.h
+
+1462845024 source:f:\ecole\cegep\cpp\huffman\src\datastructures\tad\sortedlistnode.cpp
+	"DataStructures/TAD/SortedListNode.h"
+	"DataStructures/Huffman/HuffData.h"
+	"DataStructures/Huffman/HuffNode.h"
+
